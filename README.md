@@ -8,16 +8,6 @@ serial command to route it to the recyclable or trash bin.
 > This project is a practical prototype. Treat its classifications as guidance,
 > not a substitute for local recycling rules.
 
-## Demo
-
-Add your 2–4 demo clips to [`videos/`](videos/README.md), then replace the
-placeholders below with GitHub asset links, YouTube links, or embedded videos:
-
-1. `01-overview.mp4` — the complete sorting flow
-2. `02-recyclable-bottle.mp4` — a recyclable-item example
-3. `03-trash-food.mp4` — a trash-item example
-4. `04-mechanism-closeup.mp4` — optional close-up of the mechanism
-
 ## How it works
 
 ```text
@@ -79,7 +69,6 @@ serial device. Check the available ports with `ls /dev/ttyACM* /dev/ttyUSB*`.
 ├── models/
 │   ├── mobilenet_v2.tflite # Runtime image-classification model
 │   └── labels.txt          # ImageNet class labels
-├── videos/                 # Demo clips and publishing notes
 └── requirements.txt        # Python dependencies
 ```
 
@@ -102,10 +91,3 @@ guidance in your area.
 for architecture and model information. The project includes only the runtime
 model and label file; training checkpoints and archives are intentionally not
 tracked.
-
-## Video publishing notes
-
-Small clips can be committed directly, but GitHub enforces a 100 MB per-file
-limit. For larger source videos, use Git LFS or upload a rendered demo to
-YouTube and link it above. See [`videos/README.md`](videos/README.md) for a
-simple naming convention.
