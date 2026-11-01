@@ -91,3 +91,7 @@ guidance in your area.
 for architecture and model information. The project includes only the runtime
 model and label file; training checkpoints and archives are intentionally not
 tracked.
+
+---
+
+<p align="center">Built by <a href="https://sheheryar.xyz">Sheheryar</a> · <a href="https://github.com/hexa3">github.com/hexa3</a></p>
